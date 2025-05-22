@@ -1,0 +1,15 @@
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\bin\Debug\net8.0\UserReg.logic.deps.json
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\bin\Debug\net8.0\UserReg.logic.dll
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\bin\Debug\net8.0\UserReg.logic.pdb
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\bin\Debug\net8.0\UserReg.Data.dll
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\bin\Debug\net8.0\UserReg.Data.pdb
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.csproj.AssemblyReference.cache
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.AssemblyInfoInputs.cache
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.AssemblyInfo.cs
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.csproj.CoreCompileInputs.cache
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg..F9A72459.Up2Date
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.dll
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\refint\UserReg.logic.dll
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\UserReg.logic.pdb
+C:\Users\NAVINDRA\source\repos\UserRegister\UserReg.logic\obj\Debug\net8.0\ref\UserReg.logic.dll

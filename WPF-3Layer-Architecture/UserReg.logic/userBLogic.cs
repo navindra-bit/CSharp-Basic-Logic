@@ -1,5 +1,6 @@
 ﻿using UserReg.Data;
-
+using Microsoft.Data.SqlClient;
+using System.Data;
 namespace UserReg.logic
 {
     public class userBLogic
@@ -22,7 +23,7 @@ namespace UserReg.logic
             {
                 return false;
             }
-            
+
             return true;
         }
 
@@ -32,10 +33,24 @@ namespace UserReg.logic
             if (IsVaild(name, age) == true)
             {
                 UseData data = new UseData();
-               return  data.inserData(name, age);
+                return data.inserData(name, age);
             }
             return -1;
         }
+        public DataSet GetDataset()
+        {
+            UseData useData = new UseData();
+            return useData.GetDataValue();
+        }
 
+        public int UpdateData(string name, string age,string userid)
+        {
+            if (IsVaild(name, age) == true)
+            {
+                UseData data = new UseData();
+                return data.UpdateNewData(name, age, userid);
+            }
+            return -1;
+        }
     }
 }

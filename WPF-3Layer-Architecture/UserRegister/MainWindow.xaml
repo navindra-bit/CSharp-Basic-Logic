@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
    
     <StackPanel>
+        <ComboBox x:Name="CmbSelect" SelectionChanged="CmbSelect_SelectionChanged" Margin="90,90,90,0"></ComboBox>
         <StackPanel Margin="90,90,90,0">
             <TextBlock Text="User Name" Margin="0,0,0,10" FontSize="17" FontWeight="Medium"></TextBlock>
             <TextBox x:Name="Usernamebox" Margin="0,0,0,10" FontSize="16"></TextBox>
@@ -22,6 +23,10 @@
         <Button x:Name="Clearbnt" Content="Clear" 
                 FontWeight="Medium" FontSize="18" 
                 Click="Clearbnt_Click" Margin="30" 
+                Width="100"></Button>
+            <Button x:Name="Updatebnt" Content="Update" 
+                FontWeight="Medium" FontSize="18" 
+                Click="Updatebnt_Click" Margin="30" 
                 Width="100"></Button>
         </StackPanel>
     </StackPanel>

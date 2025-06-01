@@ -1,0 +1,29 @@
+﻿<Window x:Class="MVVM.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:MVVM.ModelView;assembly=MVVM.ModelView"
+        xmlns:convert="clr-namespace:MVVM.View.Helper"
+        xmlns:local="clr-namespace:MVVM.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <vm:ViewModelLogic x:Key="ViewModelkey"></vm:ViewModelLogic>
+        <convert:NoRadioValueConvert x:Key="NoConvert"></convert:NoRadioValueConvert>
+        <convert:YesRadioValueConvert x:Key="YesConvert"></convert:YesRadioValueConvert>
+    </Window.Resources>
+    <Window.DataContext>
+        <Binding Source="{StaticResource ViewModelkey}"></Binding>
+    </Window.DataContext>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
+        <StackPanel DataContext="{Binding ViewModels}">
+            <RadioButton Content="Yes" IsChecked="{Binding isValid , Converter={StaticResource YesConvert}}"></RadioButton>
+            <RadioButton Content="No" IsChecked="{Binding isValid , Converter={StaticResource NoConvert}}"></RadioButton>
+        </StackPanel>
+        <StackPanel DataContext="{Binding ViewModels}">
+        <Label Content="{Binding status}" Foreground="{Binding color}" FontWeight="Medium"></Label>
+        </StackPanel>
+        <Button Content="Register" Margin="0,10,0,0" Command="{Binding ButtonCommand}" ></Button>
+    </StackPanel>
+</Window>
